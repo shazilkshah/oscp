@@ -2,3 +2,5 @@ kali@kali:~$ msf-nasm_shell
 nasm > jmp esp
 00000000 FFE4 jmp esp
 nasm >
+
+!mona find -s “\xff\xe4” -m “libspp.dll”
