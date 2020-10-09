@@ -1,0 +1,4 @@
+Find Location of EIP Data In Pattern
+
+kali@kali:~$ msf-pattern_offset -l 800 -q 42306142
+[*] Exact match at offset 780
